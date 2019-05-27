@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Myriad Pro", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	color: #666666;
+}
+.wrapper {
+	width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-info {
+	padding: 30px;
+	display: flex;
+}
+.header-flex {
+	display: flex;
+}
+.logo span {
+	color: #c20b10;
+	font-weight: bolder;
+}
+a span {
+	font-weight: bolder;
+}
+.telefon {
+	background-image: url("../images/Telefon.png");
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 35px;
+}
+.velcom {
+	background-image: url("../images/velcom.png");
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 35px;
+}
+.mts {
+	background-image: url("../images/mts.png");
+	background-repeat: no-repeat;
+	padding: 5px 5px 5px 35px;
+}
+.call {
+	position: absolute;
+	right: 0;
+}
