@@ -17,6 +17,10 @@ body{
 	margin: 0 auto;
 	position: relative;
 }
+.wrapper-center {
+	margin: 0 auto;
+	display: flex;
+}
 .header-info {
 	padding: 30px;
 	display: flex;
@@ -31,15 +35,19 @@ body{
 a span {
 	font-weight: bolder;
 }
-.telefon {
-	background-image: url("../images/Telefon.png");
-	background-repeat: no-repeat;
-	padding: 5px 5px 5px 35px;
+.logo {
+	font-size: 30px;
+}
+.fa-phone {
+	content: "\f095";
+	padding: 5px 5px 5px 170px;
 }
 .velcom {
 	background-image: url("../images/velcom.png");
 	background-repeat: no-repeat;
 	padding: 5px 5px 5px 35px;
+	margin-left: 38px;
+	margin-right: 28px;
 }
 .mts {
 	background-image: url("../images/mts.png");
@@ -48,5 +56,15 @@ a span {
 }
 .call {
 	position: absolute;
-	right: 0;
+	right: 15px;
+}
+.telefon {
+	display: flex;
+}
+.telefon a {
+	color: #551A8B;
+	text-decoration: none;
+}
+.call a {
+	color: #4699c2;
 }
